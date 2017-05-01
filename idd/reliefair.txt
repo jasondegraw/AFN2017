@@ -1,0 +1,35 @@
+OS:AirflowNetworkReliefAirFlow,
+      \min-fields 4
+      \memo This object allows variation of air flow rate to perform pressure.
+      \unique-object
+  A1, \field Handle
+      \type handle
+      \required-field
+  A2, \field Name
+      \required-field
+      \reference AFNReliefAirFlowNames
+  N1, \field Air Mass Flow Coefficient When No Outdoor Air Flow at Reference Conditions
+      \required-field
+      \type real
+      \units kg/s
+      \minimum> 0
+      \note Enter the air mass flow coefficient at the conditions defined
+      \note in the Reference Crack Conditions object.
+      \note Defined at 1 Pa pressure difference. Enter the coefficient used in the following
+      \note equation:
+      \note Mass Flow Rate = Air Mass Flow Coefficient * (dP)^Air Mass Flow Exponent.
+      \note Used only when no outdoor air flow rate.
+  N2, \field Air Mass Flow Exponent When No Outdoor Air Flow
+      \units dimensionless
+      \type real
+      \minimum 0.5
+      \maximum 1.0
+      \default 0.65
+      \note Enter the exponent used in the following equation:
+      \note Mass Flow Rate = Air Mass Flow Coefficient * (dP)^Air Mass Flow Exponent.
+      \note Used only when no outdoor air flow rate.
+  A3; \field Reference Crack Conditions
+      \type object-list
+      \object-list ReferenceCrackConditions
+      \note Select a AirflowNetwork:MultiZone:ReferenceCrackConditions name associated with
+      \note the air mass flow coefficient entered above.

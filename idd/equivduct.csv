@@ -1,0 +1,20 @@
+,Reference,E+ Object,Key,OS Object
+1,AFNCoilNames,Coil:Cooling:Water,Y,OS:Coil:Cooling:Water
+2,AFNCoilNames,Coil:Cooling:Water:DetailedGeometry,Y,--
+3,AFNCoilNames,Coil:Cooling:DX:SingleSpeed,Y,OS:Coil:Cooling:DX:SingleSpeed
+4,AFNCoilNames,Coil:Cooling:DX:TwoSpeed,Y,--
+5,AFNCoilNames,Coil:Cooling:DX:MultiSpeed,Y,OS:Coil:Cooling:DX:MultiSpeed
+6,AFNCoilNames,Coil:Cooling:DX:TwoStageWithHumidityControlMode,Y,OS:Coil:Cooling:DX:TwoStageWithHumidityControlMode
+7,AFNCoilNames,Coil:Heating:Water,Y,OS:Coil:Heating:Water
+8,AFNCoilNames,Coil:Heating:Electric,Y,OS:Coil:Heating:Electric
+9,AFNCoilNames,Coil:Heating:Fuel,Y,--
+10,AFNCoilNames,Coil:Heating:Desuperheater,Y,OS:Coil:Heating:Desuperheater
+11,AFNCoilNames,Coil:Heating:DX:SingleSpeed,Y,OS:Coil:Heating:DX:SingleSpeed
+12,AFNCoilNames,Coil:Heating:DX:MultiSpeed,Y,OS:Coil:Heating:DX:MultiSpeed
+13,AFNCoilNames,Coil:Cooling:DX:SingleSpeed:ThermalStorage,N,--
+,AFNCoilNames,--,N,OS:Coil:Heating:Gas
+14,AFNHeatExchangerNames,HeatExchanger:AirToAir:FlatPlate,Y,--
+15,AFNHeatExchangerNames,HeatExchanger:AirToAir:SensibleAndLatent,Y,OS:HeatExchanger:AirToAir:SensibleAndLatent
+16,AFNHeatExchangerNames,HeatExchanger:Desiccant:BalancedFlow,Y,--
+17,AFNTerminalUnitNames,AirTerminal:SingleDuct:ConstantVolume:Reheat,Y,--,OS:AirTerminal:SingleDuct:ConstantVolume:Reheat
+18,AFNTerminalUnitNames,AirTerminal:SingleDuct:VAV:Reheat,Y,--,OS:AirTerminal:SingleDuct:VAV:Reheat
